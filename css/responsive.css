@@ -26,10 +26,8 @@
       height: auto;
       
     }
-     
- 
-    
-    .cover-main{
+         
+    .content{
       height: 60vh;
     }
     .myskills .wrapper h2 {
@@ -41,7 +39,7 @@
      }
     .myskills .wrapper p{
      margin-top: -20px;
-     font-size: 14px;
+     font-size: 18px;
 
       }
      
