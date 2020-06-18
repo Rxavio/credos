@@ -25,6 +25,21 @@ nav .logo{
   line-height: 70px;
   padding-left: 60px;
 }
+nav .logo img{
+ width:  150px;
+ height: 40px;
+ margin-top: 10px;
+}
+nav .logo img:hover{
+  border-radius: 5px;
+  box-shadow:  0 0 5px #5EC6FF, 
+                0 0 10px #66ffff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
 nav ul{
   float: right;
   margin-right: 40px;
@@ -114,7 +129,7 @@ nav ul ul ul li{
   }
   .show{
     display: block;
-    color: white;
+    color: black;
     font-size: 18px;
     padding: 0 20px;
     line-height: 70px;
@@ -125,7 +140,7 @@ nav ul ul ul li{
   }
   .icon{
     display: block;
-    color: white;
+    color: black;
     position: absolute;
     top: 0;
     right: 40px;
@@ -161,14 +176,7 @@ nav ul ul ul li{
     content: '\f00d';
   }
 }
-/*.content{
-  z-index: 5;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  text-align: center;
-}*/
+
 header{
   font-size: 35px;
   font-weight: 600;
