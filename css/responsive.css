@@ -70,6 +70,12 @@
        margin-bottom: 10px;
       
     }
+    .banner-text {
+      
+      font-size: 20px;
+     
+    }
+  
    
            
   }
@@ -96,8 +102,10 @@
     }
    
     
-    .cover-main{
-      height: 60vh;
+    .banner-text {
+      
+      font-size: 20px;
+     
     }
   
      
