@@ -206,8 +206,8 @@ ol li {
 
 /*css navigation section*/
  .container{
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url('../images/banner3.jpg') right bottom;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/banner0.jpg') right bottom;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url('../images/banner.jpg') right bottom;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/banner.jpg') right bottom;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -311,9 +311,11 @@ height: 600px;
 margin-left: 40px;
 background: var(--mainWhite);
 box-shadow: 2px 2px 15px rgb(32, 28, 29);
-border-radius: 10px;
+/* border-radius: 10px; */
 margin-right: 10px;
 margin-bottom: 30px;
+border: 1 px solid;
+border-radius: 0.2rem;
 }
 /* .frontend:hover {
   transition: var(--mainTransition); 
@@ -356,9 +358,11 @@ height: 600px;
 margin-left: 20px;
 background: var(--mainWhite);
 box-shadow: 2px 2px 15px rgb(32, 28, 29);
-border-radius: 10px;
+/* border-radius: 10px; */
 margin-right:10px;
 margin-bottom: 30px;
+border: 1 px solid;
+border-radius: 0.2rem;
 }
 
 .backend .content {
@@ -658,8 +662,10 @@ color: var(--mainWhite);
   margin-top: 40px;
   background: var(--mainWhite);
   box-shadow: 2px 2px 15px rgb(32, 28, 29);
-  border-radius: 10px;
+  /* border-radius: 10px; */
   margin-bottom: 30px;
+  border: 1 px solid;
+  border-radius: 0.2rem;
   }
   .others h2{
     position: relative;
