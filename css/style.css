@@ -4,23 +4,6 @@
   
   }
 
-
-  .container1{
-        
-		float:left;
-		box-sizing: border-box;	
-		border: 1px solid rgba(0,0, 0, .2);
-		height: auto;
-		width: 70%; 
-    }
-  
-	.container2{
-		float:left;
-		box-sizing: border-box;	
-		border: 1px solid rgba(0,0, 0, .2);
-		width: 30%;
-		height: 400px;
-		}
 .grid {
   text-align: center;
   margin: 5px;
@@ -38,7 +21,7 @@
 .grid-card h3{
   padding: 10px;
   font-size: 18px;
- text-transform: uppercase;
+ /* text-transform: uppercase; */
 
  
 }
@@ -47,7 +30,7 @@
 }
 .grid-card{
    width: 295px;
-   height: auto;
+   height: 600px;
   margin: 10px;
   height: wrap;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -77,7 +60,7 @@
   border-radius: 0.2rem;
   cursor: pointer;
   width:50%;
- margin-top: -30px; 
+ margin-top: 30px; 
  margin-left: 30px;
  margin-right: 30px;
  margin-bottom: 30px;
